@@ -1,0 +1,12 @@
+# R Script to Calculate Mean and Standard Deviation
+
+# Sample dataset
+data <- c(10, 20, 30, 40, 50)
+
+# Calculate mean
+mean_value <- mean(data)
+cat("Mean:", mean_value, "\n")
+
+# Calculate standard deviation
+sd_value <- sd(data)
+cat("Standard Deviation:", sd_value)
